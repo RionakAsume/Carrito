@@ -20,7 +20,7 @@ const Productos = ({ products = [], añadirCarrito }: { products: Product[], añ
               <strong>${product.price}</strong>
             </div>
             <div>
-              <button className='text-white' onClick={() => añadirCarrito(product)}>
+              <button className='text-white hover:text-green-700 hover:bg-gray-800' onClick={() => añadirCarrito(product)}>
                 <AddToCartIcon />
               </button>
             </div>

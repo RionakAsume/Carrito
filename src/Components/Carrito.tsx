@@ -24,7 +24,7 @@ export const Carrito = ({listaCompras = [], eliminarDelCarrito}: {listaCompras: 
                             <strong>{product.title}</strong>
                             <div className="flex items-center w-1/3 justify-between">
                                 <p>${product.price}</p>
-                                <button onClick={() => eliminarDelCarrito(index)}>
+                                <button className='text-red-700' onClick={() => eliminarDelCarrito(index)}>
                                     <RemoveFromCartIcon />
                                 </button>
                             </div>
