@@ -6,6 +6,7 @@ type Product = {
   title: string;
   price: number;
   thumbnail: string;
+  
 };
 
 const Productos = ({ products = [], añadirCarrito }: { products: Product[], añadirCarrito: (product: Product) => void }) => {
